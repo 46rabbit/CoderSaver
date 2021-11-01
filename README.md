@@ -3,8 +3,8 @@
 Welcome to the CoderSaver github page.
 CoderSaver is a program that allow you to save part of your code for later use.
 
-A code that you use in almost every project?
-A code to use later in different program?
+A code that you use in almost every project? \n
+A code to use later in different program? \n
 A code that is so FU##ING awesome that you have to see it everyday and pray to it?
 
 NO PROBLEM!
