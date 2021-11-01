@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="486" Width="814">
+    <Grid>
+        <Canvas>
+            <ListBox x:Name="listBox" Height="391" Canvas.Left="10" Canvas.Top="10" Width="241"/>
+            <RichTextBox x:Name="richTextBox" Height="391" Canvas.Left="265.979" Canvas.Top="10" Width="524">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text="RichTextBox"/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <Button x:Name="addBtn" Content="+" Height="27" Canvas.Left="10" Canvas.Top="407.667" Width="116" BorderBrush="Black" Background="{x:Null}" Click="addBtn_Click"/>
+            <Button x:Name="removeBtn" Content="-" Height="27" Canvas.Left="130.5" Canvas.Top="407.667" Width="120" Background="{x:Null}" BorderBrush="Black" Click="removeBtn_Click"/>
+        </Canvas>
+
+    </Grid>
+</Window>
